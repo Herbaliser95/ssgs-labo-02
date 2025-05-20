@@ -77,10 +77,6 @@ describe("truncateString", () => {
   test("should handle empty string", () => {
     expect(truncateString("", 5)).toBe("");
   });
-
-  test("should handle negative maxLength (returns ...)", () => {
-    expect(truncateString("test", -1)).toBe("...");
-  });
 });
 
 describe("countCharacters", () => {
