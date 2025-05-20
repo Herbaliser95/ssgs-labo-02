@@ -21,14 +21,6 @@ Buona analisi e buon lavoro!
 - Troncamento di una stringa a una lunghezza massima specificata.
 - Conteggio delle occorrenze di ciascun carattere in una stringa.
 
-## Installazione e Avvio
-
-_(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test)._
-
----
-
-_Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione._
-
 ## Prerequisiti
 
 Assicurati di avere installato Node.js (versione 16 o superiore) e npm. Puoi verificare la versione di Node.js con il seguente comando:
@@ -57,13 +49,17 @@ node -v
 Per avviare l'applicazione, utilizza il seguente comando:
 
 ```
-npm start
+npm start <numero_funzione> <stringa_input> [parametro_aggiuntivo]
 ```
 
-All'avvio, l'applicazione mostrerà un messaggio di benvenuto e un elenco delle operazioni disponibili. Segui le istruzioni a schermo per selezionare un'operazione e inserire i parametri richiesti.
+Dove `<numero_funzione>` è il numero della funzione che desideri eseguire (1-4), `<stringa_input>` è la stringa su cui vuoi operare e `[parametro_aggiuntivo]` è un parametro facoltativo per la funzione 3, che rappresenta il numero massimo di caratteri dopo il troncamento.
 
-Per eseguire i test, utilizza il seguente comando:
+## Operazioni disponibili:
 
-```
-npm test
-```
+1. Inversione di una stringa
+
+2. Verifica se una stringa è palindroma
+
+3. Troncamento di una stringa a una lunghezza massima specificata
+
+4. Conteggio delle occorrenze di ciascun carattere in una stringa

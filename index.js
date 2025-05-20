@@ -11,7 +11,7 @@ const args = process.argv.slice(2);
 
 if (args.length < 2) {
   console.error(
-    "Utilizzo: node index.js <numero_funzione> <stringa_input> [parametro_aggiuntivo]"
+    "Utilizzo: npm start <numero_funzione> <stringa_input> [parametro_aggiuntivo]"
   );
   console.error("Numero funzione:");
   console.error("  1: Inverti Stringa (reverseString)");
