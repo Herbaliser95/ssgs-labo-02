@@ -52,7 +52,14 @@ Per avviare l'applicazione, utilizza il seguente comando:
 npm start <numero_funzione> <stringa_input> [parametro_aggiuntivo]
 ```
 
+
 Dove `<numero_funzione>` è il numero della funzione che desideri eseguire (1-4), `<stringa_input>` è la stringa su cui vuoi operare e `[parametro_aggiuntivo]` è un parametro facoltativo per la funzione 3, che rappresenta il numero massimo di caratteri dopo il troncamento.
+
+Per eseguire i test, utilizza il comando:
+
+```
+npm test
+```
 
 ## Operazioni disponibili:
 
