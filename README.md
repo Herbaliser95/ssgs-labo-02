@@ -16,15 +16,50 @@ Buona analisi e buon lavoro!
 
 ## Funzionalità Principali (Previste)
 
-* Inversione di una stringa.
-* Verifica se una stringa è palindroma.
-* Troncamento di una stringa a una lunghezza massima specificata.
-* Conteggio delle occorrenze di ciascun carattere in una stringa.
+- Inversione di una stringa.
+- Verifica se una stringa è palindroma.
+- Troncamento di una stringa a una lunghezza massima specificata.
+- Conteggio delle occorrenze di ciascun carattere in una stringa.
 
-## Installazione e Avvio
+## Prerequisiti
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
+Assicurati di avere installato Node.js (versione 16 o superiore) e npm. Puoi verificare la versione di Node.js con il seguente comando:
 
----
+```
+node -v
+```
 
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+## Installazione
+
+1. Clona la repository:
+   ```
+   git clone https://github.com/Herbaliser95/ssgs-labo-02.git
+   ```
+2. Accedi alla cartella del progetto:
+   ```
+   cd ssgs-labo-02
+   ```
+3. Installa le dipendenze:
+   ```
+   npm install
+   ```
+
+## Uso
+
+Per avviare l'applicazione, utilizza il seguente comando:
+
+```
+npm start <numero_funzione> <stringa_input> [parametro_aggiuntivo]
+```
+
+Dove `<numero_funzione>` è il numero della funzione che desideri eseguire (1-4), `<stringa_input>` è la stringa su cui vuoi operare e `[parametro_aggiuntivo]` è un parametro facoltativo per la funzione 3, che rappresenta il numero massimo di caratteri dopo il troncamento.
+
+## Operazioni disponibili:
+
+1. Inversione di una stringa
+
+2. Verifica se una stringa è palindroma
+
+3. Troncamento di una stringa a una lunghezza massima specificata
+
+4. Conteggio delle occorrenze di ciascun carattere in una stringa
