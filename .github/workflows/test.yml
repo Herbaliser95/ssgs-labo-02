@@ -27,3 +27,8 @@ jobs:
 
       - name: Output coverage results to console
         run: cat ./coverage/lcov-report/index.html || echo "Coverage report not found"
+
+      - name: upload artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./out"
