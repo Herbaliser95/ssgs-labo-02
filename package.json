@@ -2,11 +2,24 @@
   "name": "labo-string",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "cli",
+    "nodejs",
+    "command-line",
+    "utility"
+  ],
+  "author": "Francesco Grosso",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
