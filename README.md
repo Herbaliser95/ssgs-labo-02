@@ -16,15 +16,54 @@ Buona analisi e buon lavoro!
 
 ## Funzionalità Principali (Previste)
 
-* Inversione di una stringa.
-* Verifica se una stringa è palindroma.
-* Troncamento di una stringa a una lunghezza massima specificata.
-* Conteggio delle occorrenze di ciascun carattere in una stringa.
+- Inversione di una stringa.
+- Verifica se una stringa è palindroma.
+- Troncamento di una stringa a una lunghezza massima specificata.
+- Conteggio delle occorrenze di ciascun carattere in una stringa.
 
 ## Installazione e Avvio
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
+_(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test)._
 
 ---
 
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+_Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione._
+
+## Prerequisiti
+
+Assicurati di avere installato Node.js (versione 16 o superiore) e npm. Puoi verificare la versione di Node.js con il seguente comando:
+
+```
+node -v
+```
+
+## Installazione
+
+1. Clona la repository:
+   ```
+   git clone https://github.com/Herbaliser95/ssgs-labo-02.git
+   ```
+2. Accedi alla cartella del progetto:
+   ```
+   cd ssgs-labo-02
+   ```
+3. Installa le dipendenze:
+   ```
+   npm install
+   ```
+
+## Uso
+
+Per avviare l'applicazione, utilizza il seguente comando:
+
+```
+npm start
+```
+
+All'avvio, l'applicazione mostrerà un messaggio di benvenuto e un elenco delle operazioni disponibili. Segui le istruzioni a schermo per selezionare un'operazione e inserire i parametri richiesti.
+
+Per eseguire i test, utilizza il seguente comando:
+
+```
+npm test
+```
